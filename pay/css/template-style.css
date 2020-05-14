@@ -1,0 +1,166 @@
+#first-block, #second-block, #third-block, #fourth-block {
+text-align:center;
+padding:3.5rem 0;
+}
+#carousel {
+text-align:center;
+background:#e5e5e5;
+}
+
+
+/**************kap pa*******/
+.change-content:after{
+	content: '';
+	animation: changetext 12s infinite linear;
+	color:#7401DF;
+}
+@keyframes changetext{
+	0%{content:"SUN NET BROADBAND";}
+	50%{content:"SUN NET WI-FI";}
+	100%{content:"Now Please Login";}
+}
+/**************kap pa end*******/
+
+.header-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size:1.1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+
+}
+.header-buttons a:hover{
+	color:#50d1c0;
+	background:#fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3)
+}
+
+
+/*<!-- s................packages........ --*/
+.pricing{
+	width: 25%;
+	height: 100vh;
+	padding: 15px;
+	position: relative;
+}
+.pricing:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0%;
+	left:0;
+	right: 0;
+	z-index: -1;
+}
+
+.money{
+	font-size: 40px;
+	line-height: 2.5;
+	color:#606060;
+}
+.card{
+	transition: 0.4s ease;
+}
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background: #fff!important;
+	padding: 25px 9!important;
+}
+.card-footer a{
+	border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-size:1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+
+}
+.card:hover .card-footer a{
+	color: #fff;
+	background: #50d1c0;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3)
+}
+
+.card:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3)
+}
+
+.card:hover .card-header, .card:hover .money{
+	color: #50d1c0;
+}
+/*/*<!-- s................packages. END ....... --*/
+
+
+
+
+
+
+
+
+#first-block {
+background:rgba(255,255,255,0.7);
+}
+#second-block {
+background:#e5e5e5;
+}
+#third-block {
+background:#fff;
+}
+#fourth-block {
+	background-color: rgba(0,153,0,0.3);
+}
+#fourth-block h2 {
+	color:#FFF;
+}
+
+
+
+
+
+/*---------------footer botton------*/
+.footer-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #81DAF5;
+	font-size:1.1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+
+}
+.footer-buttons a:hover{
+	color:#50d1c0;
+	background:#fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3)
+}
+
+
+
+
+
+footer {
+background:radial-gradient(circle, rgba(192,233,148,0.6320903361344538) 37%, rgba(93,161,20,0.4472163865546218) 100%);
+padding:3.5rem 0;
+}
+@media screen and (max-width: 768px) {
+  .right {
+  float:none;
+  }
+}
